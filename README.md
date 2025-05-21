@@ -140,7 +140,9 @@ docker run --rm -it \
 
 | Original Image | Grayscale Output |
 |----------------|------------------|
-| ![color](test_images/sample_4k.jpg) | ![gray](results/sample_4k_gray.jpg) |
+| ![picture](https://github.com/user-attachments/assets/d96bd165-e03e-4e86-b2d2-0ce64e1007f7)
+ | ![output](https://github.com/user-attachments/assets/8d33554d-d215-4a4e-8c18-19199600b174)
+ |
 
 ---
 
