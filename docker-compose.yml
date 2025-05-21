@@ -1,0 +1,39 @@
+services:
+  master:
+    image: yourhub/distgray-backend:latest
+    container_name: master
+    command: python master_server.py
+    environment:
+      - HOST=0.0.0.0
+      - PORT=1300
+      - NUM_WORKERS=4
+    ports:
+      - "1300:1300"
+    networks:
+      - gray-net
+
+  worker:
+    image: yourhub/distgray-backend:latest
+    depends_on:
+      - master
+    command: python worker_client.py
+    environment:
+      - MASTER_HOST=master
+      - MASTER_PORT=1300
+    networks:
+      - gray-net
+    # nếu cần scale: docker-compose up --scale worker=4
+
+  web:
+    image: yourhub/distgray-frontend:latest
+    container_name: web
+    depends_on:
+      - master
+    ports:
+      - "80:80"
+    networks:
+      - gray-net
+
+networks:
+  gray-net:
+    driver: bridge

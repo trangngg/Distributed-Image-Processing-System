@@ -1,0 +1,20 @@
+# Loại bỏ cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Loại bỏ virtual environment nếu có
+.venv/
+env/
+venv/
+
+# Loại bỏ file Heroku, lock version, logs
+Procfile
+runtime.txt
+*.log
+
+# Loại bỏ file data test local
+data/
+
+# Loại bỏ file hệ thống macOS
+.DS_Store
