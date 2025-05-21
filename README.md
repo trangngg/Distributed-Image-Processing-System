@@ -11,7 +11,7 @@ It is designed for performance, scalability, and ease of deployment in a network
 
 | Student ID | Name | Role |
 |--------|------|------------------|
-| 22BA13241 | Nguyễn Thị Minh Nguyệt| System Architect & Leader |
+| 22BA13241 | Nguyen Thi Minh Nguyet| System Architect & Leader |
 | 22BA13303 |  Nguyen Quynh Trang | Image Segmentation & Aggregation |
 | 22BA13168 | Nguyen Ky Khai  |Master Server Communication|
 | 22BA13039 | Vu Gia Bach | Worker Node Implementation |
