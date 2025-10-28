@@ -10,7 +10,7 @@ It is designed for performance, scalability, and ease of deployment in a network
 ## Group Members and Contributions
 This is our school project for Network Programming course, with contribution of 7 members
 
-|Name | Role |
+| Name | Role |
 |--------|------|------------------|
 |Nguyen Thi Minh Nguyet| System Architect & Leader |
 |Nguyen Quynh Trang | Image Segmentation & Aggregation |
@@ -19,7 +19,6 @@ This is our school project for Network Programming course, with contribution of 
 |Vuong Ngoc Duy  |Load Balancing & Performance Metrics |
 |Tran Anh Dung |Image Processing Algorithm & Optimization |
 |Nguyen Hai An  |CLI Interface & Documentation |
-
 ---
 
 ## Features
