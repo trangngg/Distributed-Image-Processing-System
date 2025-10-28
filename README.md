@@ -11,15 +11,14 @@ It is designed for performance, scalability, and ease of deployment in a network
 This is our school project for Network Programming course, with contribution of 7 members
 
 | Name | Role |
-|--------|------|------------------|
-|Nguyen Thi Minh Nguyet| System Architect & Leader |
-|Nguyen Quynh Trang | Image Segmentation & Aggregation |
-|Nguyen Ky Khai  |Master Server Communication|
-|Vu Gia Bach | Worker Node Implementation |
-|Vuong Ngoc Duy  |Load Balancing & Performance Metrics |
-|Tran Anh Dung |Image Processing Algorithm & Optimization |
-|Nguyen Hai An  |CLI Interface & Documentation |
----
+|------|------|
+| **Nguyen Thi Minh Nguyet** | System Architect & Leader |
+| **Nguyen Quynh Trang** | Image Segmentation & Aggregation |
+| **Nguyen Ky Khai** | Master Server Communication |
+| **Vu Gia Bach** | Worker Node Implementation |
+| **Vuong Ngoc Duy** | Load Balancing & Performance Metrics |
+| **Tran Anh Dung** | Image Processing Algorithm & Optimization |
+| **Nguyen Hai An** | CLI Interface & Documentation |
 
 ## Features
 
